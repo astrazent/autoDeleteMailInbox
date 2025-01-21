@@ -39,7 +39,7 @@ Mở file `crawData/credentials.yml` và thêm thông tin theo định dạng sa
 
 ```yaml
 email: "your-email@gmail.com"
-app_password: "your-app-password"
+password: "your-app-password"
 ```
 
 
