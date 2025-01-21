@@ -54,6 +54,8 @@ python main.py
 ```
 Sau đó làm theo các bước được hiển thị trên giao diện. Khi đến bước lấy toạ độ, mọi người lấy thông tin các điểm sao cho hoàn thành một chu kì xoá mail. Vậy là xong!
 
+Update: đã có file main.exe phục vụ thực thi trực tiếp trên window. Chỉ cần vào dist/main.exe chạy file là có thể sử dụng!
+
 
 
 
