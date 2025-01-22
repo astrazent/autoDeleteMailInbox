@@ -12,7 +12,7 @@ import pygame
 pygame.mixer.init()
 
 # Đọc thông tin đăng nhập từ tệp credentials.yml
-with open("crawEmail/credentials.yml") as f:
+with open("crawData/credentials.yml") as f:
     content = f.read()
 
 my_credentials = yaml.load(content, Loader=yaml.FullLoader)
@@ -77,7 +77,7 @@ for num in tqdm(mail_id_list, desc="Đang xử lý email", unit="email"):
             })
 
 # Ghi danh sách thông tin email vào tệp txt
-output_file = "temp/raw2.txt"
+output_file = "temp/raw.txt"
 with open(output_file, "w", encoding="utf-8") as f:
     for email_info in emails:
         f.write(f"Sender: {email_info['Sender']}\n")

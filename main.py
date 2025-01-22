@@ -18,7 +18,7 @@ def monitor_process(proc):
 
 # Danh sách file tạm và script tương ứng
 temp_files_and_scripts = {
-    "temp/raw.txt": "crawAll.py",
+    "temp/raw.txt": "crawData/crawlAll.py",
     "temp/rmHtmlCss.txt": "cleanData/rmHtmlCss.py",
     "temp/rmOutSpaceAndQuotes.txt": "cleanData/rmOutSpaceAndQuotes.py",
     "temp/rmMidSpaceAndDecoding.txt": "cleanData/rmMidSpaceAndDecoding.py",
